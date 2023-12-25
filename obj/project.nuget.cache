@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9gYZC4n+SLLBzraX/GVAAn2IkjtTxsJ3v17b3V6FJSq4qez0py/aOIJVmqtl2A6sN3BFNOdIhq7xX4qHHQztJQ==",
+  "success": true,
+  "projectFilePath": "E:\\Новая папка\\PracticalWork10-main\\ConsoleApp13.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\volta\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
