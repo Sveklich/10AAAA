@@ -2,7 +2,7 @@
 {
     internal class Staff
     {
-        public static string path = "E:\\Новая папка\\staff.csv";
+        public static string path = "staff.csv"; //bin\Debug\net6.0
         public static List<Staff> staff = new(FileWork.Deserialization<Staff>(path));
 
         public Staff(int id, string surname, string name, string patronymic, string birthdate, string passport, string post, int salary, int userid)

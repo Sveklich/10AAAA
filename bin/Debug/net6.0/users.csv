@@ -1,0 +1,8 @@
+id,login,password,role
+0,Admin,Admin,Administrator
+1,HR,HR,HR_Manager
+2,Warehouse,Warehouse,Warehouse_Manager
+3,Kasa,Kasa,Cashier
+4,Acc,Acc,Accountant
+5,login,password,Cashier
+6,Utyg,password,HR_Manager

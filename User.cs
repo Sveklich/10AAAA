@@ -2,7 +2,7 @@
 {
     class User : ICrud
     {
-        public static string path = "E:\\Новая папка\\users.csv";
+        public static string path = "users.csv"; //bin\Debug\net6.0
         public static List<User> users = new(FileWork.Deserialization<User>(path));
 
         public User(int id, string login, string password, string role)

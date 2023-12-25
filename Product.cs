@@ -2,7 +2,7 @@
 {
     internal class Product
     {
-        public static string path = "E:\\Новая папка\\products.csv";
+        public static string path = "products.csv"; //bin\Debug\net6.0
         public static List<Product> products = new(FileWork.Deserialization<Product>(path));
 
         public Product(int id, string name, int price, int available)

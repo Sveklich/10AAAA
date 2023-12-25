@@ -2,7 +2,7 @@
 {
     internal class Transaction
     {
-        public static string path = "E:\\Новая папка\\transactions.csv";
+        public static string path = "transactions.csv"; //bin\Debug\net6.0
         public static List<Transaction> transactions = new(FileWork.Deserialization<Transaction>(path));
 
         public Transaction(int id, string name, int amount, string date, bool profit)
